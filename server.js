@@ -21,6 +21,9 @@ app.set('view engine', 'html');
 app.get('/', function(req, res){
   res.render('new');
 });
+app.get('/privacypolicy', function(req, res){
+	res.render('privacypolicy');
+  });
 
 http.listen(process.env.PORT || 4000, function(){
 	L.info('Server', 'Started on PORT', process.env.PORT || 4000);
