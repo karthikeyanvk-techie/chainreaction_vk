@@ -1,0 +1,20 @@
+{
+  "name": "chain-reaction",
+  "version": "0.0.1",
+  "description": "a online game by VK",
+  "main": "node server.js",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "ejs": "2.5.8",
+    "express": "^4.17.1",
+    "python": "0.0.4",
+    "socket.io": "^2.3.0"
+  },
+  "subdomain": "chain-reaction",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

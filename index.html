@@ -1,0 +1,29 @@
+<!ODCTYPE html>
+<html>
+<head>
+	<title>Chain Reaction</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="title"></div>
+<div id="arena"></div>
+
+<!-- main game script -->
+<script type="text/javascript">
+window.onload = function()
+{
+	var game = new ChainReaction(
+		30,
+		6
+	);
+
+	game.setColors(['red','green']);
+	game.loadGame();
+	game.clickable = true;
+};
+</script>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/kinetic.js"></script>
+<script type="text/javascript" src="assets/js/chain-reaction.js"></script>
+</body>
+</html>
