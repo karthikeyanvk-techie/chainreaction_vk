@@ -6,7 +6,7 @@
   "dependencies": {
     "bunyan": "^1.8.12",
     "ejs": "2.5.8",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "python": "0.0.4",
     "socket.io": "^2.3.0"
   },
